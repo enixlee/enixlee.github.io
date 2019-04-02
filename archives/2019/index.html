@@ -157,9 +157,8 @@
             </div>
             
                 <div class="postShorten-content">
-                    <h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><h2 id="1-购买ECS"><a href="#1-购买ECS" class="headerlink" title="1.购买ECS"></a>1.购买ECS</h2><p>阿里云ecs(新加坡、香港)，centos系统</p>
-<p>##2.安装SS</p>
-<ol>
+                    <h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><h2 id="1-购买ECS"><a href="#1-购买ECS" class="headerlink" title="1.购买ECS"></a>1.购买ECS</h2><p>阿里云ecs(新加坡、香港)，centos系统，配置自选</p>
+<h2 id="2-安装SS"><a href="#2-安装SS" class="headerlink" title="2.安装SS"></a>2.安装SS</h2><ol>
 <li><p>执行如下命令：</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yum install python‐setuptools &amp;&amp; easy_install pip</span><br><span class="line"></span><br><span class="line">pip install shadowsocks</span><br></pre></td></tr></table></figure>
 </li>
@@ -186,11 +185,14 @@
 </li>
 </ol>
 <pre><code>可以看到如下信息：
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">   ● ssserver.service - ssserver</span><br><span class="line">  Loaded: loaded (/etc/systemd/system/ssserver.service; enabled; vendor preset: disabled)</span><br><span class="line">  Active: active (running) since 二 2019-03-12 22:18:57 CST; 2 weeks 6 days ago</span><br><span class="line">Main PID: 3644 (ssserver)</span><br><span class="line">  CGroup: /system.slice/ssserver.service</span><br><span class="line">          └─3644 /usr/bin/python /usr/bin/ssserver -c /root/ss/sslocal.json</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"> ● ssserver.service - ssserver</span><br><span class="line">Loaded: loaded (/etc/systemd/system/ssserver.service; enabled; vendor preset: disabled)</span><br><span class="line">Active: active (running) since 二 2019-03-12 22:18:57 CST; 2 weeks 6 days ago</span><br><span class="line">Main PID: 3644 (ssserver)</span><br><span class="line">CGroup: /system.slice/ssserver.service</span><br><span class="line">        └─3644 /usr/bin/python /usr/bin/ssserver -c /root/ss/sslocal.json</span><br></pre></td></tr></table></figure>
 </code></pre><h2 id="3-客户端软件"><a href="#3-客户端软件" class="headerlink" title="3.客户端软件"></a>3.客户端软件</h2><ol>
-<li>mac建议安装<code>ShadowsocksX</code></li>
-<li>iphone、android建议安装<code>ShadowRocket</code></li>
-<li>当然根据个人喜好可以自由选择，目前加国和usa部分工具免费，但需要注册当地appstore的账号</li>
+<li><p>mac建议安装<code>ShadowsocksX</code></p>
+</li>
+<li><p>iphone、android建议安装<code>ShadowRocket</code></p>
+</li>
+<li><p>当然根据个人喜好可以自由选择，目前加国和usa部分工具免费，但需要注册当地appstore的账号</p>
+</li>
 </ol>
 
                     
